@@ -1,0 +1,11 @@
+h1 {
+    padding-top: 25px;
+    padding-left: 15px;}
+
+p {
+    padding-top: 15px;
+    padding-left: 15px;}
+
+.img-fluid {
+    max-width: 100%;
+    height:auto}
