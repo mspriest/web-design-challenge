@@ -7,5 +7,9 @@ p {
     padding-left: 15px;}
 
 .img-fluid {
-    max-width: 100%;
+    max-width:100%;
     height:auto}
+
+table {
+    padding-left: 15px;
+}

@@ -6,6 +6,7 @@
   <title>City Weather Data</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 <body>
@@ -44,6 +45,65 @@
     </div>
   </nav>
 
+<div class="container">
+
+  <!-- Our columns function in rows. -->
+  <div class="row">
+
+    <!-- Columns have 12 areas of width to work with. -->
+    <div class="col-sm-12 col-lg-8">
+    
+      <!-- Add in Header. -->
+      <h1>Summary: City Weather Data</h1>
+
+    <p>
+      The purpose of this project was to analyze how weather changes based on a city's latitude.
+      The data was gathered using the OpenWeatherMap API to assemble a data on over 500 cities.
+    </p>
+
+    <p>
+      After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. a city's latitude;
+      these factors inlcuded: cloudiness, humidity, max temperature, and humidity.
+      This site provides the source data and the visualizations created as part of the analysis,
+      as well as explanations and descriptions of any trends and correlations depicted.
+    </p>
+  </div>
+
+    <!-- Columns have 12 areas of width to work with. -->
+    <div class="col-sm-12 col-lg-4">
+      
+      <!-- Add in Header. -->
+      <h1>Visualizations</h1>
+    
+      <div class="row">
+      <div class="col-sm-3 col-lg-6">
+        <a href="cloudiness.html">
+          <img src="assets/images/cloudiness.png" class="img-fluid" alt="Cloudiness(%) vs. Latitude">
+          </a>
+      </div>
+
+      <div class="col-sm-3 col-lg-6">
+        <a href="cloudiness.html">
+          <img src="assets/images/cloudiness.png" class="img-fluid" alt="Cloudiness(%) vs. Latitude">
+          </a>
+      </div>
+
+      <div class="col-sm-3 col-lg-6">
+        <a href="cloudiness.html">
+          <img src="assets/images/cloudiness.png" class="img-fluid" alt="Cloudiness(%) vs. Latitude">
+          </a>
+      </div>
+
+    <div class="col-sm-3 col-lg-6">
+      <a href="cloudiness.html">
+        <img src="assets/images/cloudiness.png" class="img-fluid" alt="Cloudiness(%) vs. Latitude">
+        </a>
+    </div>
+    
+  </div>
+  </div>
+
+</div>
  
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
